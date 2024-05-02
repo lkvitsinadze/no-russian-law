@@ -8,7 +8,15 @@ useHead({
   ],
   htmlAttrs: {
     lang: 'en'
-  }
+  },
+  script: [ { innerHTML: `(function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0&appId=1161289928451992&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));` } ]
 })
 
 useSeoMeta({
@@ -16,16 +24,13 @@ useSeoMeta({
   twitterImage: 'https://landing-template.nuxt.dev/social-card.png',
   twitterCard: 'summary_large_image'
 })
+
 </script>
 
 <template>
   <AppHeader />
 
-  <UMain>
-    <NuxtPage />
-  </UMain>
+  <NuxtPage />
 
   <AppFooter />
-
-  <UNotifications />
 </template>

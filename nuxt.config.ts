@@ -6,6 +6,11 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/fonts'
   ],
+  nitro: {
+    prerender: {
+      routes: ['/']
+    }
+  },
   colorMode: {
     preference: 'light'
   },
@@ -18,7 +23,7 @@ export default defineNuxtConfig({
   typescript: {
     strict: false
   },
-  ssr: false,
+  ssr: true,
   eslint: {
     config: {
       stylistic: {
