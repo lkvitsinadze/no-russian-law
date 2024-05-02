@@ -16,13 +16,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '20'
 
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
 
       - name: Build
-        run: npm run generate
+        run: yarn run generate
 
       - name: Deploy to GitHub Pages
         run: npx gh-pages -d dist # Adjust the directory according to your Nuxt 3 configuration
