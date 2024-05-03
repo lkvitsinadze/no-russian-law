@@ -25,8 +25,8 @@ useHead({
 useSeoMeta({
   ogTitle: 'პროტესტის გზამკვლელი - არა რუსულ კანონს',
   ogDescription: 'არა რუსულ კანონს, მნიშვნელოვანი რესურსების ბაზა',
-  ogImage: '/fb-og-image.jpg',
-  twitterImage: '/fb-og-image.jpg',
+  ogImage: '/fb-og.jpg',
+  twitterImage: '/fb-og.jpg',
   twitterCard: 'summary_large_image'
 })
 
