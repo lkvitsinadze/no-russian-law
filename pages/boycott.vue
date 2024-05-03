@@ -12,6 +12,7 @@ const businessmen = [
   { name: 'დიმა ნაფეტვარიძე', companies: ['ოკკასიო ნოვა'] },
   { name: 'ლაშა კვაჭაძე', companies: ['ბლოქსი'] },
   { name: 'შალვა გვარამაძე', companies: ['შალვინო'] },
+  { name: 'ზაზა გოგოტიშვილი', companies: ['ანაგი დეველოპმენტი'] },
 ];
 </script>
 
