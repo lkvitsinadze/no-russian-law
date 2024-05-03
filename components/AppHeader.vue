@@ -1,19 +1,21 @@
 <script setup lang="ts">
-const route = useRoute()
-
 const links = [
 {
-  label: 'თანხის შეგროვება'
+  label: 'თანხის შეგროვება',
+  to: '#fundraising'
 },
+// {
+//   label: 'უსაფრთხოების წესები',
+//   to: '#terms'
+// },
 {
-  label: 'უსაფრთხოების წესები'
+  label: 'იურიდიული დახმარება',
+  to: '#law-help'
 },
-{
-  label: 'საჭირო ინფორმაცია'
-},
-{
-  label: 'იურიდიული დახმარება'
-},
+  {
+    label: 'საჭირო ინფორმაცია',
+    to: '#info'
+  },
 ]
 </script>
 
