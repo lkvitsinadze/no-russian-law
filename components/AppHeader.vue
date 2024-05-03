@@ -12,6 +12,10 @@ const links = [
     label: 'აქცია',
     to: '/protest'
   },
+  {
+    label: 'ბოიკოტი',
+    to: '/boycott'
+  }
 ]
 </script>
 
