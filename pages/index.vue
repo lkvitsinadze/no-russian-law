@@ -67,7 +67,7 @@ async function copyIbanToClipboard(text) {
 
 <template>
   <TheSection id="fundraising" class="mb-4" title="თანხის შეგროვება">
-    <div class="grid grid-cols-2 gap-6">
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
       <UCard v-for="item in crowdFunding">
         <template #header>
           <h3 class="font-bold">{{ item.title }}</h3>
@@ -78,7 +78,7 @@ async function copyIbanToClipboard(text) {
           <div v-if="account.receiver">მიმღები: {{ account.receiver }}</div>
         </div>
         <template #footer v-if="item.source">
-          <p><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline" :href="item.source" target="_blank">{{ item.source }}</a></p>
+          <p><a class="font-medium text-blue-600 dark:text-blue-500 hover:underline break-words" :href="item.source" target="_blank">{{ item.source }}</a></p>
         </template>
       </Ucard>
     </div>
@@ -102,11 +102,11 @@ async function copyIbanToClipboard(text) {
   </TheSection>
 
   <TheSection id="info" class="mb-4" title="ჯგუფები თვითორგანიზებისთვის">
-    <div class="flex gap-5">
+    <div class="flex flex-wrap gap-5">
       <UCard class="max-w-[450px]" v-for="link in fbGroups">
         <div class="fb-group"
             :data-href="link"
-            data-width="400"
+            data-width="340"
             data-show-metadata="false">
         </div>
       </UCard>
