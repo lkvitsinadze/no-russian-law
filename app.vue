@@ -33,4 +33,7 @@ useSeoMeta({
   <NuxtPage />
 
   <AppFooter />
+
+  <UNotifications  />
+
 </template>
