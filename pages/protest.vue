@@ -1,27 +1,39 @@
 <template>
   <TheSection class="mb-4">
-
     <ul class="mb-4">
       <li>
-        <a href="#1" class="text-blue-500 underline">როგორ მოვიქცეთ აქციის დაშლის დროს</a>
+        <a
+          href="#1"
+          class="text-blue-500 underline"
+        >როგორ მოვიქცეთ აქციის დაშლის დროს</a>
       </li>
       <li>
-        <a href="#2" class="text-blue-500 underline">თუ პოლიციამ დაგაკავათ</a>
+        <a
+          href="#2"
+          class="text-blue-500 underline"
+        >თუ პოლიციამ დაგაკავათ</a>
       </li>
     </ul>
 
-    <h2 class="font-bold text-xl my-4" id="1">
+    <h2
+      id="1"
+      class="font-bold text-xl my-4"
+    >
       როგორ მოვიქცეთ აქციის დაშლის დროს
     </h2>
 
-    <UCard class="max-w-[600px]">
-      <div class="fb-post"
-           data-href="https://www.facebook.com/khvedelidze.nika/posts/pfbid024vWM7L4edtNAyQNwN53MbdzcQSxU1XgRxFxp5GxBjVXNSyN1Asc3WifQVyBSReaVl"
-           data-show-metadata="false">
-      </div>
-    </UCard>
+    <div
+      class="fb-post max-w-[600px]"
+      data-href="https://www.facebook.com/khvedelidze.nika/posts/pfbid024vWM7L4edtNAyQNwN53MbdzcQSxU1XgRxFxp5GxBjVXNSyN1Asc3WifQVyBSReaVl"
+      data-show-metadata="false"
+    />
 
-    <h3 class="font-bold text-xl my-4" id="2">თუ პოლიციამ დაგაკავათ</h3>
+    <h3
+      id="2"
+      class="font-bold text-xl my-4"
+    >
+      თუ პოლიციამ დაგაკავათ
+    </h3>
 
     <p class="pl-3 border-l-4 border-red-500 mb-4">
       პოლიციელის მიერ თქვენი დაკავების შემთხვევაში, ეცადეთ გადაიღოთ დაკავების მიმდინარეობა დასაწყისიდან ბოლომდე. ვიდეო
@@ -33,18 +45,17 @@
       მან აუცილებლად უნდა შეადგინოს ნივთების ჩამორთმევის შესახებ ოქმი.
     </p>
 
-    <UCard class="max-w-[600px]">
-      <div class="fb-post"
-           data-href="https://www.facebook.com/shamemovement/posts/pfbid02vvafVB3sVTK9fwSf6NBStqY12AWxzHdqzFqHC5MbJ56hWFqhKpZ1EfkxvKLN4JQ8l"
-           data-show-metadata="false">
-      </div>
-    </UCard>
+    <div
+      class="fb-post max-w-[600px]"
+      data-href="https://www.facebook.com/shamemovement/posts/pfbid02vvafVB3sVTK9fwSf6NBStqY12AWxzHdqzFqHC5MbJ56hWFqhKpZ1EfkxvKLN4JQ8l"
+      data-show-metadata="false"
+    />
   </TheSection>
 </template>
 
 <script>
 export default {
-  name: "protest"
+  name: 'Protest'
 }
 </script>
 

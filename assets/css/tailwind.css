@@ -1,0 +1,47 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "FiraGO-bold";
+  src:
+    url("~/assets/fonts/FiraGO-Bold.woff") format("woff2"),
+    url("~/assets/fonts/FiraGO-Bold.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FiraGO-medium";
+  src:
+    url("~/assets/fonts/FiraGO-Medium.woff") format("woff2"),
+    url("~/assets/fonts/FiraGO-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FiraGO-regular";
+  src:
+    url("~/assets/fonts/FiraGO-Regular.woff") format("woff2"),
+    url("~/assets/fonts/FiraGO-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FiraGO-LightItalic";
+  src:
+    url("~/assets/fonts/FiraGO-LightItalic.woff") format("woff2"),
+    url("~/assets/fonts/FiraGO-LightItalic.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "FiraGO-Light";
+  src:
+    url("~/assets/fonts/FiraGO-Light.woff") format("woff2"),
+    url("~/assets/fonts/FiraGO-Light.woff2") format("woff2");
+}
+
+.uppercase {
+  font-feature-settings: "case" on;
+  text-transform: uppercase;
+}
+
+html {
+  @apply font-firago-light;
+}
