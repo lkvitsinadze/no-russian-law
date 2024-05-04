@@ -41,3 +41,7 @@
   font-feature-settings: "case" on;
   text-transform: uppercase;
 }
+
+html {
+  @apply font-firago-light;
+}

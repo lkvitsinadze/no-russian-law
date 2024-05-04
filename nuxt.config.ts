@@ -6,7 +6,7 @@ export default defineNuxtConfig({
     '@nuxt/ui',
     '@nuxt/fonts'
   ],
-  css: ["@/assets/css/tailwind.css"],
+  css: ['@/assets/css/tailwind.css'],
   nitro: {
     prerender: {
       routes: ['/']
