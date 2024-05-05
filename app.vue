@@ -1,4 +1,6 @@
 <script setup lang="ts">
+const route = useRoute()
+
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -28,6 +30,11 @@ useSeoMeta({
   twitterImage: '/fb-og.jpg',
   twitterCard: 'summary_large_image'
 })
+
+watch(() => route.fullPath, () => {
+  window.FB.XFBML.parse();
+})
+
 </script>
 
 <template>
