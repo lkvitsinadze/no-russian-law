@@ -149,18 +149,36 @@ async function copyIbanToClipboard(text) {
               href="tel:577070563"
             >577070563</a>
           </p>
+
         </template>
         <template #description>
           <div>
+            <img src="/help.png" alt="" class="max-w-2xl mb-4 mt-2" loading="lazy">
+
             <p class="mb-2">
               მოქალაქეთა საყურადღებოდ: იმ შემთხვევაში თუ თქვენ დაგაკავეს აქციაზე ქართული არასამთავრობო ორგანიზაციები მზად არიან უფასოდ გაგიწიონ იურიდიული დახმარება.
               დარეკეთ ცხელ ხაზზე
             </p>
-            <a href="https://www.facebook.com/tigeorgia/posts/pfbid0mSi56jDgjyshrvQvQEttJTn9WyLZu8ijqFrBvfSCUNbWpr6PzyiaLKzUyU1zFmidl">https://www.facebook.com/tigeorgia/posts/pfbid0mSi56jDgjyshrvQvQEttJTn9WyLZu8ijqFrBvfSCUNbWpr6PzyiaLKzUyU1zFmidl</a>
+            <a target="_blank" class="underline text-lg" href="https://www.facebook.com/tigeorgia/posts/pfbid0mSi56jDgjyshrvQvQEttJTn9WyLZu8ijqFrBvfSCUNbWpr6PzyiaLKzUyU1zFmidl">წყარო</a>
           </div>
         </template>
       </UAlert>
     </ClientOnly>
+  </TheSection>
+
+  <TheSection
+      id="fundraising"
+      class="mb-4"
+      title="აქციის მიმდებარე ტერიტორიის რუკა"
+  >
+    <div class="grid grid-cols-1 gap-4 2xl:grid-cols-2">
+      <UCard >
+        <img src="/map-1.jpg" alt="">
+      </Ucard>
+      <UCard >
+        <img src="/map-2.jpg" alt="">
+      </Ucard>
+    </div>
   </TheSection>
 
   <TheSection
